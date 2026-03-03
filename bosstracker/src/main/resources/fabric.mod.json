@@ -1,0 +1,22 @@
+{
+  "schemaVersion": 1,
+  "id": "bosstracker",
+  "version": "1.0.0",
+  "name": "BossTracker",
+  "description": "Авто телепорт к боссам на DiamondWorld",
+  "authors": ["YourName"],
+  "contact": {},
+  "license": "MIT",
+  "icon": "assets/bosstracker/icon.png",
+  "environment": "client",
+  "entrypoints": {
+    "client": [
+      "com.diamondworld.bosstracker.BossTrackerMod"
+    ]
+  },
+  "depends": {
+    "fabricloader": ">=0.15.0",
+    "fabric": "*",
+    "minecraft": "1.21.4"
+  }
+}
